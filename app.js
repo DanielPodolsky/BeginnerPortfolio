@@ -1,5 +1,3 @@
-import { SERVICE_ID, TEMPLATE_ID } from "./config.js";
-
 // NAVBAR
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
