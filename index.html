@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "PdlzpClF169VKh0wZ",
+        });
+      })();
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Daniel Podolsky Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <div class="container navbar">
+        <h1><a href="#home" class="logo">Daniel P.</a></h1>
+
+        <nav role="navigation">
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home">
+      <div class="container hero">
+        <div class="hero-info">
+          <h2>I'm Daniel Podolsky</h2>
+          <span
+            >3rd year B.Sc Computer Science Student / Full Stack Student at
+            codecademy.com</span
+          >
+          <p>
+            A Developer based in Israel who loves to code and always eager to
+            learn more.
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio">
+              <button aria-label="View my portifolio">My Portfolio</button>
+            </a>
+            <a href="./DanielPodolskyCV.pdf" download="DanielPodolskyCV.pdf">
+              <button aria-label="Download my resume">
+                Download Resume
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/me.jpg" alt="Image of Daniel Podolsky" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <h2 class="section-titles" id="about-heading">About Me</h2>
+      <div class="container about-inner">
+        <div class="about-info">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse dolor
+            sit minima sunt quis suscipit iusto sed laboriosam numquam atque,
+            vel debitis molestiae neque. Aliquid temporibus vitae incidunt alias
+            delectus.
+          </p>
+          <ul>
+            <li>Age: 24</li>
+            <li>Email: danielpodolskywork@gmail.com</li>
+            <li>Discord: lambodol</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOB SECTION -->
+    <section id="experience" class="jobs" aria-labelledby="expreience-heading">
+      <h2 class="section-titles" id="expreience-heading">Experience</h2>
+      <div class="container">
+        <div class="job-list">
+          <div class="job-item job-item-left">
+            <div>
+              <span class="job-date date-left">December 2023 - Present</span>
+              <div class="job-content">
+                <img
+                  class="job-logo"
+                  src="assets/coding.png"
+                  alt="Youtube logo"
+                />
+                <h5>Full-Stack Engineer</h5>
+                <p>
+                  I am currently enrolled in a Full-Stack Engineer course on
+                  Codecademy.com. Enthusiastic about technology and coding, I am
+                  immersing myself in a comprehensive learning journey to become
+                  proficient in both front-end and back-end web development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="job-right">
+            <div class="job-item job-item-right">
+              <div>
+                <span class="job-date date-right"
+                  >December 2018 - August 2021</span
+                >
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="assets/medic.jpg"
+                    alt="Youtube logo"
+                  />
+                  <h5>Combat Medic - I.D.F</h5>
+                  <p>
+                    As a Combat Medic in the Israeli Defense Forces (I.D.F), I
+                    operated at the forefront of medical care, combining
+                    lifesaving skills with combat readiness in high- pressure
+                    environments. In my primary missions, I got to provide
+                    immediate medical aid to injured soldiers on the
+                    battlefield, often under intense circumstances where
+                    split-second decisions were critical. • This experience
+                    taught me the importance of calmness under pressure, quick
+                    decision-making, and effective communication within a
+                    high-stakes environment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section
+      id="portfolio"
+      class="portfolio"
+      aria-labelledby="portifolio-heading"
+    >
+      <h2 class="section-titles" id="portifolio-heading">Some of my work</h2>
+      <div class="container">
+        <div class="projects">
+          <div class="project-images">
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay">
+                  <div class="content">
+                    <h4>Playlist4U</h4>
+                    <span
+                      >Spotify playlist generator using React and Spotify's API
+                    </span>
+                  </div>
+                  <video src="./assets/Playlist4U.mp4" controls></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Let's Connect!</h1>
+        <div>
+          <form
+            id="contact-form"
+            aria-label="Contact-Form"
+            onsubmit="sendEmail()"
+          >
+            <div class="form-row">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-input"
+                placeholder="Your Name"
+                required
+                aria-label="Your Name"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input"
+                placeholder="Your Email"
+                required
+                aria-label="Your Email"
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              class="form-input"
+              required
+              placeholder="Enter your message here"
+              style="resize: none"
+              aria-label="Your Message"
+            ></textarea>
+            <div class="form-button">
+              <button type="submit">Submit!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <div class="container footer-container">
+      <div class="footer-icons">
+        <ion-icon name="logo-css3"></ion-icon>
+        <ion-icon name="logo-html5"></ion-icon>
+        <ion-icon name="logo-nodejs"></ion-icon>
+        <ion-icon name="logo-discord"></ion-icon>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
